@@ -4,7 +4,6 @@ SetEnvIfNoCase User-Agent "^ALittle Client" bot
 SetEnvIfNoCase User-Agent "^Go-http-client/1.1" bot
 SetEnvIfNoCase User-Agent "^TprAdsTxtCrawler" bot
 SetEnvIfNoCase User-Agent "^Photon/1.0" bot
-SetEnvIfNoCase User-Agent "^Twitterbot/1.0" bot
 SetEnvIfNoCase User-Agent .*Twitterbot/1.0.* bot
 SetEnvIfNoCase User-Agent .*Screaming Frog SEO Spider.* bot
 SetEnvIfNoCase User-Agent .*SurdotlyBot.* bot
